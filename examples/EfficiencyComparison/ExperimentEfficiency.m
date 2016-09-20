@@ -1,7 +1,7 @@
 clear;
 clc;
 addpath(genpath('../../Algorithms/CvxSolver/'))
-addpath(genpath('../../Algorithms/ADMMSolver/'))
+addpath(genpath('../../Algorithms/AMASolver/'))
 %create a random problem
 n = 500;
 d = 50;
