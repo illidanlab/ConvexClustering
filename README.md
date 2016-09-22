@@ -1,7 +1,7 @@
 # Robust Convex Clustering
 
 Clustering is an unsupervised learning approach that explores data and seeks
-groups of similar objects. Many classical clustering models such as $k$-means
+groups of similar objects. Many classical clustering models such as k-means
 and DBSCAN are based on heuristics algorithms and suffer from local optimal
 solutions and numerical instability. Recently convex clustering has
 received increasing attentions, which leverages the sparsity inducing norms
