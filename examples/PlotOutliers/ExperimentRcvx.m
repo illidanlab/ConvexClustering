@@ -29,7 +29,7 @@ end
 figure;
 for i = 1 : size(Q_Rcvx, 1);
    for j = 1 : size(Q_Rcvx, 2)
-   weight_Q{i,j}=sqrt(sum(Q{i,j}.^2,2));
+   weight_Q{i,j}=sqrt(sum(Q_Rcvx{i,j}.^2,2));
    end
 end
 
